@@ -125,6 +125,30 @@ form {
 المحاضرة ما زبطت عندي ضل خلل والسكرول ما اشتغل
 /* end client*/
 
+/*newslater*/
+.newslater{
+  text-align: center;
+  background-image: url('../img/newsalter.webp');
+  padding: 160px 0;
+}
+.newslater h2{
+  font-family: Josefin Sans ;
+  color:#151875;
+  margin-bottom: 45px;
+  font-size: 30px;
+}
+.newslater a {
+  display: inline-block;
+  color: #FFFFFF;
+  font-family: Josefin Sans ;
+  padding: 10px 30px;
+  transition: .5s;
+}
+.shop-btn:hover{
+  background-color: #151875;
+}
+/*newslater*/
+
 .footer form {
   border: 2px solid #e7e6ef;
   border-radius: 5px;

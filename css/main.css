@@ -138,24 +138,24 @@ form {
   font-size: 14px;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .hero .hero-row {
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
   }
 
   .hero-info {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 
   .hero img {
-    width: 250px; 
+    width: 250px;
   }
 
   .hero .hero-lamp {
-    display: none; 
+    display: none;
   }
-} 
+}
 /*hero-section*/
 /*Featured-product*/
 
@@ -197,7 +197,92 @@ form {
   color: var(--primary);
 }
 /*Featured Products*/
+/*Leatest Products*/
 
+.Leatest-Products {
+  padding: 75px 0;
+  text-align: center;
+}
+.Leatest-Products-list {
+  display: flex;
+  justify-content: center;
+  gap: 58px;
+  margin-bottom: 58px;
+}
+.Leatest-Products-list a {
+  font-size: 14px;
+  font-family: var(--mainfont);
+  color: #151875;
+}
+.Leatest-Products-list .main-a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+h2 {
+  margin-bottom: 19px;
+  font-family: Josefin Sans;
+  color: #151875;
+  font-size: 30px;
+}
+.Leatest-Products img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+.chair-detalies .sale {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  right: 220px;
+  top: -20px;
+}
+.Leatest-Products1,
+.Leatest-Products2 {
+  display: flex;
+  gap: 37px;
+  justify-content: center;
+  align-items: center;
+}
+.chair-detalies {
+  padding: 20px;
+  position: relative;
+}
+.chair {
+  display: flex;
+  justify-content: space-between;
+  font-family: Josefin Sans;
+  color: #151875;
+  font-size: 16px;
+}
+.span1 {
+  box-shadow: 0 2px 0 #eeeffb;
+}
+.span2 {
+  font-size: 13px;
+}
+.span3 {
+  text-decoration: line-through;
+  color: #fb2448;
+  font-size: 12px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  opacity: 0;
+  transition: .5s;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+}
+.chair-detalies:hover .icons{
+    opacity: 1;
+}
+/*leatest products*/
 /*client*/
 .clients {
   padding: 50px 0;

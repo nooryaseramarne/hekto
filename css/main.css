@@ -228,13 +228,18 @@ h2 {
   width: 300px;
   height: 200px;
   object-fit: contain;
+  background-color: #f7f7f7;
+}
+.Leatest-Products .img-leatest2 {
+  background-color: #ffffff;
 }
 .chair-detalies .sale {
   width: 90px;
   height: 90px;
   position: absolute;
-  right: 220px;
-  top: -20px;
+  right: 235px;
+  top: -5px;
+  background-color: #ffffff;
 }
 .Leatest-Products1,
 .Leatest-Products2 {
@@ -273,14 +278,22 @@ h2 {
   left: 15px;
   top: 100px;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 .icons img {
   width: 20px;
   height: 20px;
 }
-.chair-detalies:hover .icons{
-    opacity: 1;
+.chair-detalies:hover .icons {
+  opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .Leatest-Products1,
+  .Leatest-Products2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 /*leatest products*/
 /*client*/

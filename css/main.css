@@ -296,6 +296,52 @@ h2 {
   }
 }
 /*leatest products*/
+/*what shopex offer!*/
+.Shopex-Offer {
+  padding-bottom: 100px;
+}
+.Shopex-Offer h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.offers {
+  gap: 10px;
+  width: calc((100% - 30px) / 4);
+  height: 100px;
+  text-align: center;
+}
+.offers img {
+  width: 45px;
+  margin-bottom: 10px;
+}
+.offers h3 {
+  font-family: Josefin Sans;
+  margin-bottom: 15px;
+  color: #151875;
+  font-size: 16px;
+}
+.offers p {
+  font-family: var(--mainfont);
+  font-size: 14px;
+  color: #8a8fb9;
+}
+
+@media screen and (max-width: 950px) {
+  .offers {
+    width: calc((100% - 10px) / 2);
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .offers {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+/*what shopex offers*/
+
 /*client*/
 .clients {
   padding: 50px 0;
@@ -326,8 +372,9 @@ h2 {
   }
 }
 /*استاذ الخصائص يلي استعملتهم تعلمتهم من شات لانه طريقتك في 
-المحاضرة ما زبطت عندي ضل خلل والسكرول ما اشتغل
-/* end client*/
+ المحاضرة ما زبطت عندي ضل خلل والسكرول ما اشتغل
+"مش تنقصني استاذ بالله عليك رفقا بالقوارير"
+ /* end client*/
 
 /*newslater*/
 .newslater {

@@ -341,6 +341,169 @@ h2 {
 }
 
 /*what shopex offers*/
+/*Trending Products*/
+.Trending-Products {
+  padding: 80px 0;
+  text-align: center;
+}
+.Trending-Products h2 {
+  margin-bottom: 40px;
+}
+.Cantilever-cair .cair-img {
+  width: calc((100% - 15px) / 4);
+  font-family: var(--mainfont);
+}
+.Cantilever-cair .row {
+  gap: 5px;
+}
+.Cantilever-cair img {
+  background-color: #f5f6f8;
+  margin-bottom: 20px;
+  width: 171px;
+  height: 171px;
+}
+.Trending-Products .cair-img p {
+  color: #151875;
+}
+.cair-img {
+  box-shadow: 4px 4px 4px 4px #f5f6f8;
+}
+
+.cair-img .span1 {
+  color: #151875;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.cair-img .span2 {
+  color: #8a8fb9;
+  text-decoration: line-through;
+  font-size: 10px;
+}
+.Cantileve-detalies {
+  padding: 50px 0;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: baseline;
+}
+.detalies1,
+.detalies2 {
+  position: relative;
+  width: 420px;
+  height: 200px;
+}
+.detalies1 {
+  background-color: #fff6fb;
+  direction: ltr;
+  text-align: left;
+}
+.Cantileve-detalies h3,
+.Cantileve-detalies a {
+  padding: 15px;
+}
+.Cantileve-detalies h3 {
+  color: #151875;
+  font-family: Josefin Sans;
+}
+.Cantileve-detalies a {
+  font-family: Josefin Sans;
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.detalies2 {
+  background-color: #eeeffb;
+  direction: ltr;
+  text-align: left;
+}
+
+.detalies1 img {
+  position: absolute;
+  width: 150px;
+  left: 250px;
+}
+.detalies2 img {
+  position: absolute;
+  width: 200px;
+  left: 200px;
+  bottom: 10px;
+}
+.detalies3 {
+  flex-direction: column;
+}
+.img-product {
+  display: flex;
+  gap: 10px;
+}
+.img-product img {
+  width: 80px;
+  height: 67px;
+  background-color: #f5f6f8;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+.img-product .spans {
+  text-align: left;
+  direction: ltr;
+}
+.img-product .span1,
+.img-product .span2 {
+  margin-bottom: 10px;
+  box-shadow: none;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Josefin Sans;
+  color: #151875;
+}
+.img-product .span2 {
+  text-decoration: line-through;
+  text-align: left;
+  direction: ltr;
+}
+
+@media (max-width: 576px) {
+  .Cantilever-cair .cair-img {
+    width: 100%;
+  }
+
+  .Cantileve-detalies {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detalies1,
+  .detalies2,
+  .detalies3 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .detalies2 img {
+    position: static;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 0;
+  }
+  .detalies1 img {
+    margin: -20px auto 0;
+    position: static;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .Cantileve-detalies h3,
+  .Cantileve-detalies a {
+    text-align: center;
+    display: block;
+  }
+
+  .img-product {
+    justify-content: center;
+  }
+}
 
 /*client*/
 .clients {

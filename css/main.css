@@ -510,7 +510,7 @@ h2 {
 
 .Top-Categories {
   text-align: center;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .Top-Categories .row {
@@ -594,6 +594,31 @@ h2 {
 }
 
 /* top Categories*/
+
+/*newslater*/
+.newslater {
+  text-align: center;
+  background-image: url("../img/newsalter.webp");
+  padding: 120px 0;
+}
+.newslater h2 {
+  font-family: Josefin Sans;
+  color: #151875;
+  margin-bottom: 45px;
+  font-size: 30px;
+}
+.newslater a {
+  display: inline-block;
+  color: #ffffff;
+  font-family: Josefin Sans;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+.shop-btn:hover {
+  background-color: #151875;
+}
+/*newslater*/
+
 /*client*/
 .clients {
   padding: 50px 0;
@@ -614,7 +639,7 @@ h2 {
 }
 
 .clients .logo {
-  width: 150px;
+  width: 200px;
   flex-shrink: 0;
 }
 
@@ -628,29 +653,7 @@ h2 {
 "مش تنقصني استاذ بالله عليك رفقا بالقوارير"
  /* end client*/
 
-/*newslater*/
-.newslater {
-  text-align: center;
-  background-image: url("../img/newsalter.webp");
-  padding: 160px 0;
-}
-.newslater h2 {
-  font-family: Josefin Sans;
-  color: #151875;
-  margin-bottom: 45px;
-  font-size: 30px;
-}
-.newslater a {
-  display: inline-block;
-  color: #ffffff;
-  font-family: Josefin Sans;
-  padding: 10px 30px;
-  transition: 0.5s;
-}
-.shop-btn:hover {
-  background-color: #151875;
-}
-/*newslater*/
+/*footer section*/
 
 .footer form {
   border: 2px solid #e7e6ef;

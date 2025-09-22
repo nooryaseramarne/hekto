@@ -650,9 +650,92 @@ h2 {
 }
 /*استاذ الخصائص يلي استعملتهم تعلمتهم من شات لانه طريقتك في 
  المحاضرة ما زبطت عندي ضل خلل والسكرول ما اشتغل
-"مش تنقصني استاذ بالله عليك رفقا بالقوارير"
+"مش تنقصني استاذ "
  /* end client*/
 
+ /*Leatest Blog*/
+ .Leatest-Blog{
+  text-align: center;
+  padding-bottom: 70px;
+  font-family: Josefin Sans ;
+  h2{
+    text-align: center;
+    padding: 20px 0 ;
+  }
+ }
+ .Leatest-Blog .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+ 
+ }
+ .esssential-Trends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  box-shadow:0 4px 0 0  #f5f6f8;
+  width: calc((100% - 60px) /3);
+  span  {
+    text-align: left;
+    direction: ltr;
+    font-size: 12px;
+    color: #151875;
+    margin-top: 10px;
+  }
+  span img{
+    margin: 0 5px;
+  }
+  a {
+   text-align: left;
+    direction: ltr; 
+    text-decoration: underline;
+    color: #151875;
+    padding: 10px 0;
+  }
+  h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #151875;
+  }
+  p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: var(--mainfont);
+    color: #72718F;
+    line-height: 20px;
+    width: 300px;
+    height: 60px;
+    direction: ltr;
+    text-align: left;
+  }
+ }
+ 
+.esssential-Trends:hover h3,
+.esssential-Trends:hover a {
+  color:var(--primary);
+}
+
+ .esssential-Trends .imageBlog {
+  width: 100%; 
+  height: auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+  .esssential-Trends {
+    flex: 1 1 calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 600px) {
+  .esssential-Trends {
+    flex: 1 1 100%; 
+  }
+}
+/* Leatest-Blog */
 /*footer section*/
 
 .footer form {
